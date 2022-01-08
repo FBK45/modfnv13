@@ -95,8 +95,8 @@ class backend {
         this.updateAthena();
         this.router();
         this.app.listen(
-            this.config.port, () => {
-                console.log(`Server is running on port ${this.config.port}.`);
+            process.env.PORT || this.config.port, () => {
+                console.log(`Server is running on port ${process.env.PORT || this.config.port}.`);
             }
         )
     }
