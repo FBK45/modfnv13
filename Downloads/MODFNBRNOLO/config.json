@@ -1,5 +1,0 @@
-{
-    "port": 80,
-    "xmppPort": 443,
-    "db": "mongodb+srv://GewoonIraj:FWJg4buKocTxu0BA@main.bbpro.mongodb.net/aurorav1-main"
-}
